@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+body{ margin:0; font-family:"微软雅黑"; font-size:12px;}
+*{ list-style:none; border:0; padding:0; margin:0;}
+#wrap{ width:100%; margin:0 auto;}
+
+/*header*/
+#header8{ width:1345px; position:relative; height:599px; margin:0 auto; }
+#header8 .img1{ position:absolute; left:284px; top:28px;}
+#header8 .img2{ position:absolute; top:109px;}
+#header8 .menu{ font-size:16px; position:absolute; width:708px; height:68px; left:539px; top:28px;}
+#header8 .menu span{ font-size:12px;}
+#header8 .menu li{  float:left; padding-right:24px; line-height:68px; text-align:center; line-height:20px;}
+#header8 .menu li a{ padding-top:13px;  display:block; width:66px; height:68px; text-decoration:none; color:#000;}
+#header8 .menu li a:hover{  padding-top:13px;  display:block; color:#F00; width:66px; height:68px; background:url(../img/chexing2/menulibg.png) no-repeat left 4px;}
+/*contents*/
+#contents9{ margin:0 auto;  position: relative; width:1345; height:2786px; top:45px;}
+#contents9 .contents1{ position:absolute; height:1039px;}
+#contents9 .contents1 .left{ position:absolute; left:73px; top:139px;}
+#contents9 .contents1 .right{ position:absolute; left:1119px; top:139px;}
+#contents9 .contents1 .swf1{ position:absolute; width:696px; height:418px; left:310px; top:3px;}
+#contents9 .contents1 .banner{ position:absolute; top:451px;}
+#contents9 .contents2{ position:absolute; top:1038px;}
+#contents9 .contents3{ position:absolute; top:1854px; left:159px; width:1040px; height:932px;}
+#contents9 .contents3 .img3{ position:absolute; z-index:-1;}
+#contents9 .contents3 .swf2{ position:absolute; background:#000; left:109px; top:215px; width:745px; height:424px; z-index:1;}
+#contents9 .contents3 .more{ position:absolute; left:99px; top:828px; z-index:1;}
+/*footer*/
+#footer9{ margin:0 auto; position:relative; width:1345px; height:65px; background:#0a0a0a; padding-top:10px;}
+#footer9 .img4{ position:absolute; left:417px; padding-top:10px;}

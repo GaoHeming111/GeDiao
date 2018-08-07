@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+#wrap{ width:100%;  height:633px;  background:url(../img/denglu/bg1.jpg) no-repeat left top; }
+body{ margin:0;}
+*{ list-style:none; margin:0; padding:0; border:0;}
+/*header*/
+#wrap10{ width:100%;  height:633px;  background:url(../img/denglu/bg1.jpg) no-repeat left top; }
+#header10{  width:100%; height:633px; position:relative; }
+#header10 .bg{ width:288px; height:363px; position:absolute; left:142px; top:114px; background:url(../img/denglu/xiaobg.png) no-repeat left top;}
+#header10 .bg .img1{ position:absolute; left:95px; top:25px;}
+#header10 .bg .text{ width:225px; height:33px; position:absolute; left:31px; top:78px; background:url(img/denglu/baikuang.png) no-repeat left top;}
+#header10 .bg .text .img5{ position:absolute; left:5px; top:5px;}
+#header10 .bg .text p{ line-height:33px; font-size:12px; position:absolute; left:40px;}
+#header10 .bg .text1 p{ line-height:33px; font-size:12px; position:absolute; left:40px;}
+#header10 .bg .text1 .img6{ position:absolute; left:5px; top:5px;}
+#header10 .bg .text1{ width:225px; height:33px; position:absolute; left:31px; top:128px; background:url(img/denglu/baikuang.png) no-repeat left top;}
+#header10 .bg .p1{ font-size:10px; color: #000; left:35px; top:178px; position:absolute;}
+#header10 .bg .p2{ font-size:10px; color: #000; left:208px; top:178px; position:absolute;}
+#header10 .bg .img2{ position:absolute; left:38px; top:210px;}
+#header10 .bg .img3{ position:absolute; left:70px; top:266px;}
+#header10 .bg .img4{ position:absolute; left:66px; top:308px;}

@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+body{ margin:0; font-family:"微软雅黑"; font-size:12px; background:#181715;}
+*{ list-style:none; margin:0; padding:0;  border:0;}
+#wrap{ width:100%;}
+
+/*header*/
+.body2{ background:#181715;}
+#header11{ width:1047px; height:200px; margin:0 auto; top:75px;position:relative;}
+#header11 .img1{ position:absolute; left:426px; top:0px;}
+#header11 .img2{ float:right; margin-right:46px; margin-top:66px;}
+#header11 .menu{ width:867px; height:79px; float:left; margin:81px 0 0 181px; font-size:18px; }
+#header11 .menu li{ padding-right:94px; width:88px; height:45px; float:left; text-align:center;}
+#header11 .menu li a{ display:block; text-decoration:none; color:#FFF;}
+#header11 .menu li a:hover{ background:url(../img/zoujin/menulibg.png) no-repeat left top;}
+/*contents*/
+#contents11{ position: relative; margin:0 auto; top:145px;  width:1047px; height:2514px; background:url(../img/zoujin/contentsbg.gif) no-repeat left top; }
+#contents11 .contents1{ position:absolute; width:539px; height:391px;  left:249px; top:105px;}
+#contents11 .contents2{ width:586px; height:854px; background:url(../img/zoujin/2logobg.jpg) no-repeat left top; position:absolute; left:199px; top:496px;}
+#contents11 .contents2 .left1{ width:209px; height:104px; position:absolute; left:25px; top:141px;}
+#contents11 .left1p{ width:209px; height:55px; font-size:9px; line-height:11px; color: #CCC; position:absolute; top:51px; text-indent:10%;}
+#contents11 .contents2 .left2{ width:209px; height:104px; position:absolute; left:25px; top:491px;}
+#contents11 .left2p{ width:173px; height:38px; position:absolute; left:20px; top:51px; font-size:9px; line-height:11px; color: #CCC; text-indent:10%;}
+#contents11 .contents2 .right1{ width:207px; height:99px; position:absolute; left:340px; top:303px; }
+#contents11 .right1p{ width:209px; height:52px; font-size:9px; line-height:11px; color: #CCC; position:absolute; top:51px; text-indent:10%; }
+#contents11 .contents2 .right2{ width:198px; height:88x; position:absolute; left:360px; top:663px;}
+#contents11 .right2p{ width:198px; height:52px; font-size:9px; line-height:11px; color: #CCC; position:absolute; top:51px; text-indent:10%; }
+#contents11 .contents2 .but{ position:absolute; width:77px; height:28px; left:253px; top:827px;}
+#contents11 .contents3{ width:976px; height:396px; position:relative;top:1362px;}
+#contents11 .img3{margin-top:112px; position:absolute; left:432px; }
+#contents11 .contents3 .link{ width:976px; height:291px; top:205px; position:absolute; left:72px;}
+#contents11 .contents3 .link li{ float:left; width:284px; height:191px; padding-right:38px;}
+#contents11 .contents4{ width:976px; height:366px; position:relative; top:1500px; left:72px;}
+#contents11 .img4{ width:129px; height:60px; position:absolute; left:362px;}
+#contents11 .contents4 .ul{ width:933px; height:251px; position:absolute; left:42px; top:115px; }
+#contents11 .contents4 .ul li{ width:270px; height:100px; padding-right:33px; float:left;}
+#contents11 .contents5{ width:623px; height:239px; position:relative; top:1500px; left:317px;}
+#contents11 .img5{ width:330px; height:118px; position:absolute; left:39px;}
+#contents11 .contents5 .ul1{ width:623px; height:79px; position:absolute; top:160px;}
+#contents11 .contents5 .ul1 li{ width:79px; height:79px; float:left; padding-right:92px;}
+/*footer*/
+#footer11{ width:511px; height:55px; margin:0 auto; margin-top:173px; padding-bottom:10px;}

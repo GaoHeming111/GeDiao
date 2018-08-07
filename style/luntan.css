@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+body{ margin:0; font-size:12px; font-family:"微软雅黑";}
+*{ list-style:none; padding:0; margin:0; border:0;}
+#wrap{ width:100%; margin:0 auto;}
+
+/*header*/
+#header{ margin:0 auto; width:1345px; height:814px; position:relative; }
+.img1{ position:absolute; z-index:1; left:583px; top:75px;}
+#header .img2{ position:absolute; z-index:-1;}
+#header .menu{ position:absolute; z-index:1; width:867px; height:79px; float:left; left:337px; top:188px; font-size:18px; }
+#header .menu li{ padding-right:94px; width:88px; height:45px; float:left; text-align:center;}
+#header .menu li a{ display:block; text-decoration:none; color:#FFF;}
+#header .menu li a:hover{ background:url(../img/zoujin/menulibg.png) no-repeat left top;}
+/*contents*/
+#contents{ width:1065px; position:relative;  top:81px; margin:0 auto;}
+#contents .contents1{ height:1168px; position:absolute;}
+.img3{ position:absolute; left:414px;}
+#contents .contents1 .dl1{ width:309px; height::523px; position:absolute; top:83px; background:url(../img/luntan/dl1bg.jpg) no-repeat right top;}
+#contents .contents1 .dd1{ position: absolute; left:9px; top:331px;}
+.dt{ text-align:center;}
+#contents .contents1 .dd1 .logo{ position:absolute; left:57px;}
+#contents .contents1 .dd1 .p{ line-height:18px; width:273px; height:92px; position:absolute; left:12px; top:64px;}
+#contents .contents1 .dd1 .enter{ position:absolute; left:115px; top:147px;}
+#contents .contents1 .dl2{ width:294px; height::489px; position:absolute; top:673px; background:url(../img/luntan/dl2bg.jpg) no-repeat right top;}
+#contents .contents1 .ul1{ width:708px; height:307px; position:absolute; left:396px; top:144px;}
+#contents .contents1 .ul2{ width:708px; height:307px; position:absolute; left:396px; top:761px;}
+#contents .contents1 .ul1 li{ float:left; padding-right:30px;}
+#contents .contents1 .ul2 li{ float:left; padding-right:30px;}
+.pp{ position:absolute; top:111px;}
+.ppp{ position:absolute; top:27px;}
+.z{ position:absolute; top:203px; left:533px;}
+.e{ position:absolute; top:248px; left:362px;}
+.li1{ float:left; padding-right:30px;}
+.imgul2{ position:absolute; left:396px; top:451px;}
+
+#contents .contents2{ height:917px; position:absolute; top:1251px;}
+#contents .contents2 .ul3{ width:1058px; height:220px; position:absolute; top:124px; background:url(../img/luntan/ul3bg.png) no-repeat left top;}
+#contents .contents2 .ul4{ width:1058px; height:220px; position:absolute; top:356px; }
+#contents .contents2 .ul5{ width:1058px; height:220px; position:absolute; top:588px; }
+.ili1{ position:absolute; left:109px; top:28px; width:307px; height:220px;}
+.ili2{ position:absolute; left:307px; width:331px; height:220px;}
+.ili3{ position:absolute; left:656px;  top:26px; width:331px; height:220px;}
+.img4{ position:absolute; left:537px; top:854px;}
+.gengduo{ position:absolute; left:974px; top:200px;}
+/*footer*/
+#footer{ width:1345px; height:75px; margin:0 auto; margin-top:2263px; background:url(../img/luntan/copybg.png) no-repeat left top;}
+.copy{ margin-left:400px; margin-top:20px;}

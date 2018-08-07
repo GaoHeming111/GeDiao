@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+body{ margin:0; font-family:"微软雅黑"; font-size:12px; background:#000;}
+*{border:0; margin:0; padding:0; list-style:none;}
+#wrap{ width:100%; margin:0 auto;}
+
+/*header*/
+#header5{ margin:0 auto; width:1047px; height:848px; top:75px; z-index:1; position:relative;}
+#header5 .img1{ position:absolute; left:426px; top:0px;}
+#header5 .img2{ float:right; margin-right:46px; margin-top:66px;}
+#header5 .img3{ width:1039px; height:610px; position:absolute; top:238px;}
+#header5 .menu{ width:867px; height:79px; float:left; margin:61px 0 0 181px; font-size:18px; }
+#header5 .menu li{ padding-right:94px; width:88px; height:45px; float:left; text-align:center;}
+#header5 .menu li a{ display:block; text-decoration:none; color:#FFF;}
+#header5 .menu li a:hover{ background:url(../img/zoujin/menulibg.png) no-repeat left top;}
+/*contents*/
+#contents5{ margin:0 auto; position: relative; width:963px; top:60px; height:2030px; background: url(../img/jingcai/contentsbg.png) no-repeat left top;  z-index:-1;}
+#contents5 .contents1{ position:absolute; width:963px; height:649px; top:83px;}
+#contents5 .contents1 .banner{ position:absolute; left:188px; top:458px; }
+#contents5 .contents1 .swf{ position:absolute; width:701px; height:342px; left:45px; top:56px;  }
+#contents5 .contents2{ position:absolute; width:963px; height:1216px; top:757px;}
+#contents5 .contents2 .logo{ position:absolute; top:30px;}
+#contents5 .contents2 .dl1{ position:absolute; left:18px; top:174px; width:293px; height:436px;}
+#contents5 .contents2 .dl2{ position:absolute; left:647px; top:174px; width:293px; height:436px;}
+#contents5 .contents2 .dl3{ position:absolute; left:18px; top:677px; width:293px; height:436px;}
+#contents5 .contents2 .dl4{ position:absolute; left:647px; top:677px; width:293px; height:436px;}
+#contents5 dt{ width:293px; height:191px;}
+#contents5 dd{ width:293px; height:244px; position:absolute; top:191px; }
+#contents5 .img4{ position:absolute; top:24px; left:13px;}
+#contents5 .p{ width:283px; height:106px; position:absolute; left:10px; top:117px; color:#CCC; line-height:13px;}
+#contents5 .date{ position:absolute; left:19px; top:227px; color:#FFF;}
+#contents5 .shou{ position:absolute; left:221px; top:230px;}
+#contents5 .img5{ position:absolute; left:342px; top:113px;}
+#contents5 .img6{ position:absolute; left:342px; top:793px;}
+#contents5 .img7{ position:absolute; left:879px; top:1981px;}
+/*footer*/
+#footer5{ width:511px; height:55px; margin:0 auto; margin-top:83px;} 
+

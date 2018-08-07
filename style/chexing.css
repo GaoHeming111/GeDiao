@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+body{ margin:0; font-family:"微软雅黑"; font-size:12px;}
+*{ margin:0; padding:0; list-style:none; border:0;}
+#wrap{ margin:0 auto; width:100%;}
+
+/*header*/
+.body4{  background:#000;}
+#header{ width:1047px; height:848px; margin:0 auto; margin-top:75px; position:relative;}
+.img1{ position:absolute; left:426px; top:0px;}
+.img2{ float:right; margin-right:46px; margin-top:66px;}
+#header .img3{ position:absolute; z-index:-1; width:1039px; height:610px;top:238px;}
+#header .intro{ color:#FFF; width:614px; height:317px; background:url(../img/chexing/bannerbg.png) no-repeat left top; position:absolute; z-index:1; left:191px; top:332px;}
+#header .intro .wenzi{ width:506px; height:226px; line-height:19px; font-size:16px; position:absolute; left:50px; top:82px;}
+#header .intro .wenzi .color{ color:#999;}
+#header .menu{ width:867px; height:79px; float:left; margin:61px 0 0 181px; font-size:18px; }
+#header .menu li{ padding-right:94px; width:88px; height:45px; float:left; text-align:center;}
+#header .menu li a{ display:block; text-decoration:none; color:#FFF;}
+#header .menu li a:hover{ background:url(../img/zoujin/menulibg.png) no-repeat left top;}
+/*contents*/
+#contents{ position: relative; width:963px; height:1341px; background: url(../img/chexing/contentsbg.png) no-repeat left top; margin:0 auto; }
+#contents .contents1{ position:absolute; width:962px; height:607px; top:83px;}
+.img4{ position:absolute; left:35px; top:232px;}
+.img5{ position:absolute; left:912px; top:232px;}
+.img6{ position:absolute; left:454px; top:513px;}
+#contents .contents1 .left{ width:244px; height:340px; position:absolute; left:87px; top:124px;}
+#contents .contents1 .center{ width:248px; height:384px; position:absolute; left:356px; top:100px;}
+#contents .contents1 .right{ width:244px; height:340px; position:absolute; left:651px; top:124px;}
+
+#contents .contents2{ position:absolute; width:963px; height:646px; top:695px;}
+#contents .contents2 .pic{ width:894px; height:464px; position:absolute; left:24px; top:68px;}
+#contents .contents2 .pic li{ width:298px; height:232px; float:left;}
+#contents .contents2 .img7{ position:absolute; left:790px; top:578px;}
+/*footer*/
+#footer{ width:511px; height:55px; margin:0 auto; margin-top:33px;}

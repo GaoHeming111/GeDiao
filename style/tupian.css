@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+body{ margin:0; font-family:"微软雅黑"; font-size:12px; background:#000;}
+*{ list-style:none; margin:0; padding:0; border:0;}
+#wrap{ width:100%; margin:0 auto;}
+
+/*header*/
+#header{ width:1345px; height:814px; position:relative; margin:0 auto; }
+.img1{ position:absolute; z-index:1; left:583px; top:75px;}
+#header .img2{ position:absolute; z-index:-1;}
+#header .menu{ position:absolute; z-index:1; width:867px; height:79px; float:left; left:337px; top:188px; font-size:18px; }
+#header .menu li{ padding-right:94px; width:88px; height:45px; float:left; text-align:center;}
+#header .menu li a{ display:block; text-decoration:none; color:#FFF;}
+#header .menu li a:hover{ background:url(../img/zoujin/menulibg.png) no-repeat left top;}
+/*contents*/
+#contents{ position: relative; width:1145px; height:1965px; background: url(../img/tupian/contentsbg.png) no-repeat left top; margin:0 auto; }
+#contents .contents1{ position:absolute; width:1144px; height:483px; top:92px; left:2px;}
+.img3{ position:absolute; left:98px;}
+#contents .contents1 .pic{ width:1144px; height:398px; position:absolute; top:85px;}
+#contents .contents1 .pic li{ width:441px; height:397px; float:left;}
+#contents .contents1 .pic li a{ display:block; width:441px; height:218px;  background:url(../img/tupian/li1.png) no-repeat left top;}
+#contents .contents1 .pic li a:hover{width:441px; height:218px; display:block; background:url(../img/tupian/li11.png) no-repeat left top;}
+#contents .contents1 .pic .li1 a{ position:absolute; left:0px; top:218px; display:block; width:441px; height:218px;  background:url(../img/tupian/li2.png) no-repeat left top;}
+#contents .contents1 .pic .li1 a:hover{width:441px; height:218px; display:block; background:url(../img/tupian/li22.png) no-repeat left top;}
+#contents .contents1 .pic .li2{ width:258px; height:397px; position:absolute; left:441px;}
+#contents .contents1 .pic .li3 a{ position:absolute; top:0px; left:699px; display:block; width:441px; height:218px;  background:url(../img/tupian/li4.png) no-repeat left top;}
+#contents .contents1 .pic .li3 a:hover{width:441px; height:218px; display:block; background:url(../img/tupian/li44.png) no-repeat left top;}
+#contents .contents1 .pic .li4 a{display:block; position:absolute; left:698px; top:179px; width:441px; height:218px;  background:url(../img/tupian/li5.png) no-repeat left top;}
+#contents .contents1 .pic .li4 a:hover{width:441px; height:218px; display:block; background:url(../img/tupian/li55.png) no-repeat left top;}
+
+#contents .contents2{ position:absolute; width:1145px; height:646px; top:666px;}
+#contents .contents2 .banner{ position:absolute; left:61px; top:86px; z-index:-1;}
+#contents .contents2 .flow{ width:1027px; top:282px; position:absolute; left:64px; top:249px; z-index:1;}
+#contents .contents2 .flow li{ z-index:1; text-align:center; padding-bottom:12px; line-height:37px; font-size:16px; width:1027px; height:37px; font-family:"方正正准黑简体";}
+#contents .contents2 .flow li a{ z-index:1; display:block; text-decoration:none;  color:#CCC; width:1027px; height:37px;}
+#contents .contents2 .flow li a:hover{  z-index:1; width:1027px; height:37px; display:block; background: url(../img/tupian/bannerlibg.png) no-repeat left top;}
+.img4{ position:absolute; left:1013px; top:622px;}
+
+#contents .contents3{ position:absolute; width:1142px; height:554px; top:1411px;}
+.img5{ position:absolute; z-index:-1; left:0px; top:0px;}
+.c31{ position:absolute; z-index:1; left:0px; top:0px;}
+.c32{ position:absolute; z-index:1; left:456px; top:0px;}
+/*footer*/
+#footer{ width:511px; height:55px; margin:0 auto; top:2800px; padding-top:20px;}

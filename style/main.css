@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+/*通用样式*/
+body{ margin:0; font-family:"微软雅黑"; font-size:12px; }
+.body1{  background:#000;}
+*{ list-style:none; border:0; padding:0; margin:0;}
+#wrap{ margin:0 auto; width:100%;}
+
+/*header*/
+#header{ margin:0 auto; width:1345px; height:814px; position:relative; }
+.img1{ position:absolute; z-index:1; left:583px; top:75px;}
+#header .img2{ position:absolute; z-index:-1;}
+#header .menu{ position:absolute; z-index:1; width:867px; height:79px; float:left; left:337px; top:188px; font-size:18px; }
+#header .menu li{ padding-right:94px; width:88px; height:45px; float:left; text-align:center;}
+#header .menu li a{ display:block; text-decoration:none; color:#FFF;}
+#header .menu li a:hover{ background:url(../img/zoujin/menulibg.png) no-repeat left top;}
+
+#header8{ width:1345px; position:relative; height:599px; margin:0 auto; }
+#header8 .img1{ position:absolute; left:284px; top:28px;}
+#header8 .img2{ position:absolute; top:109px;}
+#header8 .menu{ font-size:16px; position:absolute; width:708px; height:68px; left:539px; top:28px;}
+#header8 .menu span{ font-size:12px;}
+#header8 .menu li{  float:left; padding-right:24px; line-height:68px; text-align:center; line-height:20px;}
+#header8 .menu li a{ padding-top:13px;  display:block; width:66px; height:68px; text-decoration:none; color:#000;}
+#header8 .menu li a:hover{  padding-top:13px;  display:block; color:#F00; width:66px; height:68px; background:url(../img/chexing2/menulibg.png) no-repeat left 4px;}

@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+body{ margin:0; font-family:"微软雅黑"; font-size:12px; }
+*{ margin:0; padding:0; list-style:none; border:0;}
+#wrap{ margin:0 auto; width:100%;}
+
+/*header*/
+#header{ width:1345px; position:relative; height:719px; margin:0 auto;}
+#header .img1{ position:absolute; left:284px; top:28px;}
+#header .img2{ position:absolute; top:109px;}
+#header .menu{ font-size:16px; position:absolute; width:708px; height:68px; left:539px; top:28px;}
+#header .menu li{  float:left; padding-right:24px; line-height:68px; text-align:center; line-height:20px;}
+#header .menu span{ font-size:12px;}
+#header .menu li a{ padding-top:13px;  display:block; width:66px; height:68px; text-decoration:none; color:#000;}
+#header .menu li a:hover{  padding-top:13px;  display:block; color:#F00; width:66px; height:68px; background:url(../img/chexing2/menulibg.png) no-repeat left 4px;}
+/*contents*/
+#contents8{ width:1345px; height:2078px; margin:0 auto; background:#2a2929; position:relative;}
+#contents8 .contents1{ height:833px; position:absolute; top:59px;}
+#contents8 .contents1 .link{ width:262px; height:450px; background:url(../img/chexing2/linkbg.png) no-repeat left top; position:absolute; left:123px; top:56px;}
+#contents8 .contents1 .link li{ height:45px; padding-bottom:2px;}
+#contents8 .contents1 .link1{ width:801px; height:753px; position:absolute; left:473px; top:85px;}
+#contents8 .contents1 .link1 li{ width:181px; height:159px; padding-right:40px; float:left;}
+#contents8 .contents1 .but1{ position:absolute; left:520px; top:757px;}
+#contents8 .contents1 .but2{ position:absolute; left:730px; top:757px;}
+#contents8 .contents1 .pag{ position:absolute; height:19px;  left:599px; top:762px;}
+#contents8 .contents1 .pag li{ padding-right:11px; float:left; height:19px;}
+#contents8 .contents2{ height:1045px; position:absolute; top:923px;}
+#contents8 .contents2 .logo{ position:absolute; left:124px;}
+#contents8 .contents2 .banner1{ position:absolute; left:140px; top:99px;}
+#contents8 .contents2 .plogo{ position:absolute; left:914px; top:111px;}
+#contents8 .contents2 .color{ position:absolute; left:923px; top:267px;}
+#contents8 .contents2 .rmb{ position:absolute; left:916px; top:308px;}
+#contents8 .contents2 .buy{ position:absolute; left:914px; top:472px;}
+#contents8 .contents2 .banner2{ position:absolute; left:166px; top:608px;}
+/*footer*/
+#footer8{ width:511px; height:55px; background:#0a0a0a; padding-top:33px;margin:0 auto;  padding-left:419px; padding-right:415px;}
